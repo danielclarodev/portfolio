@@ -1,0 +1,34 @@
+.fundo-azul {
+  background-color: #13131e;
+}
+
+.containerservicos {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px 20px 40px 20px;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+div.flex.containerservicos {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 80px 20px;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+.ft {
+  width: 50px;
+}
+
+@media (max-width: 600px) {
+  .fontmobe {
+    font-size: 30px !important;
+    text-align: center;
+  }
+
+  .containerservicos .container-reutilizavel {
+    margin-bottom: 10px;
+  }
+}

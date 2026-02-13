@@ -1,0 +1,88 @@
+/*CONTAINER*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 100px 20px;
+  align-items: center;
+  gap: 50px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.container2 {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 20px 0px 20px;
+  box-sizing: border-box;
+  justify-items: center;
+}
+
+/*FLEXBOX*/
+
+.flex {
+  display: flex;
+
+  gap: 20px;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+/*CONTAINER-REUTILIZAVEL*/
+
+.container-reutilizavel {
+  background-color: #464fff;
+  width: 118px;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.container-reutilizavel h1 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*CONTAINER-SERVIÇO*/
+
+.container-servico {
+  display: grid;
+  padding: 40px 20px 40px 20px;
+  background-image: linear-gradient(45deg, #151521, #1a1a28);
+  border-radius: 12px;
+  border: 1px solid transparent;
+  justify-items: center;
+  transition: 0.3s;
+}
+
+.container-servico:hover {
+  border: 1px solid #3f3f53;
+}
+
+.container-servico p {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.container-servico h2 {
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .containerservicos {
+    flex-direction: column;
+  }
+}

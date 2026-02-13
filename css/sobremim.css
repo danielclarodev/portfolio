@@ -1,0 +1,89 @@
+.fundo-bg {
+  background-image: url("/img/fundo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.minhas-informacoes p {
+  margin-bottom: 25px;
+}
+
+.minhas-informacoes p {
+  color: #888898;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #303043;
+  padding: 16px 36px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  scale: 110%;
+}
+
+.ordermobile {
+  display: grid;
+}
+
+.ordermobile .container-reutilizavel {
+  margin-bottom: 8px;
+}
+
+.ordermobile {
+  display: grid;
+  justify-items: start;
+}
+
+@media (max-width: 800px) {
+  .ordermobile {
+    order: -1;
+  }
+
+  .fotosobremim {
+    justify-self: center;
+  }
+
+  .informacoes h1 {
+    font-size: 50px;
+  }
+
+  .ordermobile h1:nth-child(2) {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ordermobile h1:nth-child(2) {
+    font-size: 30px;
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .container-reutilizavel h1 {
+    font-size: 14px;
+  }
+
+  .container-reutilizavel {
+    padding: 10px 8px;
+    justify-self: center;
+  }
+
+  .botao {
+    justify-self: center;
+  }
+
+  .minhas-informacoes p {
+    text-align: justify;
+  }
+}

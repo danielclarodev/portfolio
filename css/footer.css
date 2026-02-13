@@ -1,0 +1,42 @@
+.footer {
+  background-color: #15151e;
+}
+
+.containercontato1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-self: center;
+
+  max-width: 1300px;
+  padding: 100px 20px 100px 20px;
+  margin: 0 auto;
+}
+
+.in-insta {
+  display: flex;
+  gap: 16px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.containercontato1 > img {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+div.in-insta img {
+  width: 54px;
+  height: 54px;
+  transition: 0.3s;
+}
+
+div.in-insta img:hover {
+  transform: scale(110%);
+}
+
+.containercontato1 p {
+  color: #ffffff;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 400;
+}
